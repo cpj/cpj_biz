@@ -1,0 +1,62 @@
+name = Open Biz
+description = install profile for handling customers, invoicing, etc.
+core = 7.x
+
+
+; dependencies.
+; these modules will be installed in the site automatically when it is built by aegir:
+
+; core modules
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = contact
+
+; contrib modules
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_tools
+dependencies[] = date_views
+dependencies[] = features
+dependencies[] = conditional_fields
+dependencies[] = filefield_sources
+dependencies[] = flag
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = workbench
+dependencies[] = workbench_moderation
+dependencies[] = extlink
+dependencies[] = strongarm
+dependencies[] = menu_block
+dependencies[] = menu_block_export
+dependencies[] = formblock
+dependencies[] = diff
+dependencies[] = boxes
+dependencies[] = menu_token
+dependencies[] = transliteration
+dependencies[] = toolbar_styles
+dependencies[] = uuid
+dependencies[] = uuid_features
+
+files[] = open_biz.profile
