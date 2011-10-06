@@ -8,7 +8,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function open_biz_install() {
+function cpj_biz_install() {
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
   $values = array(

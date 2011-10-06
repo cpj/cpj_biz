@@ -7,5 +7,5 @@
  *
  * Allows the profile to alter the site configuration form.
  */
-function open_biz_form_install_configure_form_alter(&$form, $form_state) {
+function cpj_biz_form_install_configure_form_alter(&$form, $form_state) {
 }

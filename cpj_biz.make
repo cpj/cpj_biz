@@ -1,9 +1,9 @@
-; OPEN BIZ MAKE FILE.
+; CPJ BIZ MAKE FILE.
 
 ; you can download all of the drupal projects listed in this make file by doing the following:
 
-; cd path/to/drupal/profiles/open_biz
-; drush make --no-core --contrib-destination=. open_biz.make
+; cd path/to/drupal/profiles/cpj_biz
+; drush make --no-core --contrib-destination=. cpj_biz.make
 
 ; semi-colons comment out a line of text.
 
@@ -13,7 +13,7 @@ core = 7.x
 ; Contrib modules
 
 ; the following example downloads the 3.x-dev version views module
-; and places it in profiles/open_biz/modules/contrib/views 
+; and places it in profiles/cpj_biz/modules/contrib/views 
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.x-dev"

@@ -1,4 +1,4 @@
-name = Open Biz
+name = CPJ Biz
 description = install profile for handling customers, invoicing, etc.
 core = 7.x
 
